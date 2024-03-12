@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="Imagenes/LogoAllura.jpeg" alt="LogoAllura">
+    </header>
+    <main>
+        <h1>Encriptador de Allura</h1>            
+        <section class="areasdetexto">
+                <textarea class="entrada" placeholder="ingrese el texto" rows="10" cols="60"></textarea>
+                <p>Solo Minusculas y sin acentos</p>
+                    <div>
+                        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>            
+                    </div>
+        </section>
+        <br>
+        <section class="areasdetexto">
+            <textarea class="salida" id="salida" cols="60" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar" onclick="copiarContenido()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy Copyright  Jhon Malek - 2024</p>
+        <p class="copyright"><a href="mailto:jhonmalek84@gmail.com">Contacto:jhonmalek84@gmail.com</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

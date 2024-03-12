@@ -1,0 +1,95 @@
+*{
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 150%;
+    margin: 0 0 0 0;    
+    color: aliceblue;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+html{
+    background: rgb(18, 15, 77);
+    background: linear-gradient(135deg, rgb(18, 15, 77) 0%, rgb(54, 54, 163) 35%, rgb(35, 87, 97) 100%);
+}
+
+.logo{
+    float:left;
+    padding-top: 10 px;
+    margin-left: 10px;
+    width: 5%;
+    height: 5%;
+}
+h1{
+    font-size: 3em;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin: 0;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+
+section{
+    padding-left: 0 auto;
+    font-size: 1.5;
+    inline-size: 1.2;
+    font-weight: bold;
+    margin: 0;
+}
+
+button {
+    background-color: blueviolet;
+    color: antiquewhite;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 45dvw;
+    }
+
+button:hover {
+    background-color: #04AA6D;
+    color: white;
+    }
+
+.copyright{
+    text-align: center;
+}
+
+p{
+    text-align: center; 
+}
+
+footer{
+    width: auto;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;   
+    padding: 20px;
+    text-align: center;
+}
+
+textarea{
+    background-image: url(Imagenes/BackgroundDePagina.jpg);
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    resize: none;
+    text-align: left;
+}
+
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+        line-height: 1.4;
+        }
+    }
